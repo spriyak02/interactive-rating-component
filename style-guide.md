@@ -14,7 +14,6 @@ The designs were created to the following widths:
 - Orange: hsl(25, 97%, 53%)
 
 ### Neutral
-
 - White: hsl(0, 0%, 100%)
 - Light Grey: hsl(217, 12%, 63%)
 - Medium Grey: hsl(216, 12%, 54%)
