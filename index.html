@@ -14,7 +14,8 @@
   </head>
   <body>
     <div class="container">
-      <div class="card">
+      <!-- card 1 - rating input -->
+      <div id="card1">
         <!-- the icon -->
         <span class="circle"
           ><img src="images/icon-star.svg" alt="star icon"
@@ -25,14 +26,27 @@
           is appreciated to help us improve our offering!
         </p>
         <div class="ratings">
-          <span class="circle">1</span>
-          <span class="circle">2</span>
-          <span class="circle">3</span>
-          <span class="circle">4</span>
-          <span class="circle">5</span>
+          <div class="circle rating">1</div>
+          <div class="circle rating">2</div>
+          <div class="circle rating">3</div>
+          <div class="circle rating">4</div>
+          <div class="circle rating">5</div>
         </div>
-        <button class="cta-primary">SUBMIT</button>
+        <button id="cta-primary">SUBMIT</button>
       </div>
+      
+      <!-- second card - thank you! -->
+      <div id="card2">
+        <img src="images/illustration-thank-you.svg" alt="thank you illustration"/>
+        <p id="display-rating">You rated 0 out of 5</p>
+          <h1>Thank you!</h1>
+          <p>
+            We appreciate you taking the time to give a rating. If you ever need support, don't hesitate to get in touch!
+          </p>
+      </div>
+
     </div>
   </body>
+  <script src="./index.js"></script>
+
 </html>
